@@ -1,0 +1,20 @@
+.home_1 {
+  margin: -8px;
+}
+
+@media screen and (max-width: 768px) {
+  .home_1 {
+    margin-top: -9px;
+    margin-left: -9px;
+  }
+}
+.background_1 {
+  background-image: url("https://images.unsplash.com/photo-1617817546276-80b86dd60151?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

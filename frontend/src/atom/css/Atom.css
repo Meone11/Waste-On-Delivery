@@ -1,0 +1,39 @@
+.button_1 {
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.button_1:hover {
+  color: #065f46;
+}
+
+.button_2 {
+  border: 1px solid #065f46;
+  background-color: transparent;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.button_2:hover {
+  background-color: #e4e4e7;
+  border: 1px solid #065f46;
+  border-radius: 5px;
+  color: #065f46;
+}
+
+@media screen and (max-width: 768px) {
+  .button_1 {
+    color: white;
+  }
+  .button_2 {
+    color: white;
+  }
+}
