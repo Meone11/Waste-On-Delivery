@@ -1,5 +1,4 @@
 import * as React from "react";
-
 //icon
 import { IoTrashOutline } from "react-icons/io5";
 import { MdMenu, MdOutlineClose } from "react-icons/md";
@@ -8,6 +7,7 @@ import { MdMenu, MdOutlineClose } from "react-icons/md";
 import * as Button from "../atom/Button";
 //Styling
 import "./css/Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [screenSize, setScreenSize] = React.useState(window.outerWidth);
@@ -28,7 +28,7 @@ function Navbar() {
       setTimeout(() => {
         setMenu(false);
         setIsAnimating(false);
-      }, 1250);
+      }, 1500);
     } else {
       setMenu(true);
     }
@@ -44,8 +44,12 @@ function Navbar() {
         {screenSize > 768 ? (
           <>
             <div className="css_1_3">
-              <Button.Button text="Home" />
-              <Button.Button text="Partner With Us" />
+              <Link to={"/"}>
+                <Button.Button text="Home" />
+              </Link>
+              <Link to="/partner-with-us">
+                <Button.Button text="Partner With Us" />
+              </Link>
               <Button.Button text="About Us" />
               <Button.Button text="Help" />
             </div>
@@ -88,8 +92,12 @@ function Navbar() {
           </div>
           <div className="css_submenu">
             <div className="css_menu_2_1">
-              <Button.Button text="Home" />
-              <Button.Button text="Partner With Us" />
+              <Link to={"/"}>
+                <Button.Button text="Home" />
+              </Link>
+              <Link to={"/partner-with-us"}>
+                <Button.Button text="Partner With Us" />
+              </Link>
               <Button.Button text="About Us" />
               <Button.Button text="Help" />
             </div>

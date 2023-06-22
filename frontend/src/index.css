@@ -1,5 +1,40 @@
-#root {
-  display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --color-1: #202022;
+  --color-2: #065f46;
+  --color-3: linear-gradient(147deg, #16c48f 0%, #065f46 75%);
+  --color-3-hover: linear-gradient(147deg, #065f46 0%, #16c48f 75%);
+  --text-color_1: white;
+  --text-color_2: black;
+  --font-style: "Poppins", sans-serif;
+
+  /*========== Colors ==========*/
+  --first-color: hsl(30, 16%, 50%);
+  --text-color: #fff;
+  --text-color-black: hsl(30, 8%, 15%);
+  --body-color: hsl(30, 100%, 98%);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  --h3-font-size: 1rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /* Font Size For Large */
+  --font-L-small: 24px;
+  --font-L-medium: 34px;
+  --font-L-large: 48px;
+
+  /* Mobile System Desaign  (768px)*/
+  --font-size-mobile-small: 14px;
+  --font-size-mobile-medium: 18px;
+  --font-size-mobile-large: 24px;
+}
+
+body,
+html {
   height: 100%;
-  width: 100%;
+  margin: 0;
+  background-color: var(--color-1);
 }
