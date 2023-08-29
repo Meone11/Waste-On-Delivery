@@ -11,7 +11,6 @@ SwiperCore.use([EffectFade, Mousewheel, Pagination]);
 const Carousel = () => {
   return (
     <div className=".start-slider">
-      <div className="title-carousel">Kenapa WOD?</div>
       <Swiper
         className="blog-slider"
         spaceBetween={30}

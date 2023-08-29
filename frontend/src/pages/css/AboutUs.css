@@ -1,0 +1,31 @@
+.aboutUs-1{
+    height: 100vh;
+    margin: 0px;
+}
+
+.aboutUs-1-1 {
+    background-image: url("../../image/aboutus_1.jpeg");
+    /* Full height */
+    height: 70%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs-text-1 {
+    font-family: var(--font-style);
+    text-align: center;
+    color: white;
+    font-size: var(--font-L-small);
+}
+.aboutUs-text-1 b {
+    font-size: var(--font-L-medium);
+    font-weight: bold;
+}

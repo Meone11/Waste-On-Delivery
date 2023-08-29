@@ -44,6 +44,7 @@ function Homepage() {
         )}
       </div>
       <div className="title-home">
+        <div className="title-carousel">Kenapa WOD?</div>
         <Carousel />
       </div>
     </div>

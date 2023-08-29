@@ -110,11 +110,23 @@
 
 .title-home {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   padding: 20px;
   width: 100%;
   height: fit-content;
+}
+
+.title-carousel {
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-style);
+  font-size: var(--font-large);
+  font-weight: 1000;
+  text-align: center;
+  color: var(--text-color_1);
 }
 
 @media screen and (min-width: 768px) {

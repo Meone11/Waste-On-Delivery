@@ -24,7 +24,7 @@
   /* Font Size For Large */
   --font-L-small: 24px;
   --font-L-medium: 34px;
-  --font-L-large: 48px;
+  --font-large: 48px;
 
   /* Mobile System Desaign  (768px)*/
   --font-size-mobile-small: 14px;
@@ -32,9 +32,13 @@
   --font-size-mobile-large: 24px;
 }
 
+#root{
+  margin: 0;
+}
+
 body,
 html {
   height: 100%;
-  margin: 0;
+  margin: 0px;
   background-color: var(--color-1);
 }

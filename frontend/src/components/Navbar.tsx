@@ -50,7 +50,9 @@ function Navbar() {
               <Link to="/partner-with-us">
                 <Button.Button text="Partner With Us" />
               </Link>
+              <Link to="/about-us">
               <Button.Button text="About Us" />
+              </Link>
               <Button.Button text="Help" />
             </div>
             <div className="css_1_4">
